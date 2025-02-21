@@ -34,6 +34,7 @@ on:
       runs-on:
         required: true
         type: string
+        default: 'self-hosted'
       extra-conf-options:
         required: false
         type: string
